@@ -1,0 +1,389 @@
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 1.1em;
+    line-height: 1.3em;
+    background-color: rgba(220, 220, 220, 0.65);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 2.5em;
+    margin-bottom: 0;
+}
+
+/* Navigation */
+
+nav {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ccc;
+}
+
+/* Main Content */
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+section {
+    background-color: #fff;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    width: calc(30% - 40px);
+    height: 500px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/* Activity Container Styles */
+.activities {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Individual Activity Box Styles */
+.activity {
+    flex: 1 1 calc(30% - 40px);
+    margin: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    transition: transform 0.3s;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+/* Activity Image */
+.activity img {
+    width: 90%;
+    height: 100px;
+    border-radius: 7px;
+}
+
+/* Activity Title */
+.activity h2 {
+    color: #333;
+    margin: 10px 0;
+}
+
+/* Venue Style */
+.activity h3 {
+    font-style: italic;
+    color: #555;
+    margin: 5px 0;
+}
+
+/* Description Style */
+.activity p {
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+
+/* Hover effect for activity box */
+.activity:hover {
+    transform: scale(1.02);
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    clear: both;
+}
+
+footer p {
+    margin-bottom: 10px;
+    display: inline;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer p:first-child {
+    margin-right: 50px;
+}
+
+/* Contact Us page styles */
+
+form {
+    max-width: 1400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.77);
+    border-radius: 10px;
+    box-shadow: 0 0 500px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 0;
+    font-weight: bolder;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea,
+select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+textarea {
+    width: 100%;
+    height: 50px;
+}
+
+button[type="submit"] {
+    display: block;
+    margin-top: 10px;
+    background-color: #5e5d5d;
+    color: #ffffff;
+    padding: 0.2em 1em;
+    font-size: 1em;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: darkgrey;
+}
+
+/* Modify Table Styles */
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+td {
+    background-color: #fff;
+    font-size: 1em;
+}
+
+td img.thumb {
+    width: 80px;
+    height: auto;
+}
+
+a.link {
+    color: #333;
+    text-decoration: none;
+    background-color: #f2f2f2;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+a.link:hover {
+    background-color: #e0e0e0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2em;
+    color: #333;
+}
+
+/* Confirmation Container Styles */
+.confirmation-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    text-align: center;
+}
+
+/* Confirmation Heading Styles */
+.confirmation-container h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Record Details Styles */
+.confirmation-container h3 {
+    font-size: 1.5em;
+    color: #555;
+    margin: 10px 0;
+}
+
+/* Description Styles */
+.confirmation-container p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+/* Thumbnail Image Styles */
+.confirmation-container img.thumb {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    border-radius: 5px;
+}
+
+/* Confirmation Box Styles */
+.confirmation-box {
+    margin-top: 20px;
+}
+
+/* Confirm and Cancel Button Styles */
+.confirm {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.confirm a {
+    padding: 10px 20px;
+    background-color: #5e5d5d;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.confirm a:hover {
+    background-color: darkgrey;
+}
+
+/* Error Message Styles */
+.error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Update Form Styles */
+.update-form {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.update-form label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.update-form input[type="text"],
+.update-form textarea {
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+.update-form button[type="submit"] {
+    background-color: #5e5d5d;
+    color: #fff;
+    padding: 0.5em 1.5em;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.update-form button[type="submit"]:hover {
+    background-color: darkgrey;
+}
+
+/* Error Message Styles */
+.update-form .error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Details Section Style */
+.details {
+    background-color: #fff;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+    margin: 40px auto;
+    padding: 20px;
+    width: 60%;
+    max-width: 800px;
+    max-height: 70vh;
+    border-radius: 10px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+/* Style for Activity Image */
+.details img {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    border-radius: 7px;
+}
